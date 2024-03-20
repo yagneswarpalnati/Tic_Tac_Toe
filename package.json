@@ -1,11 +1,12 @@
 {
-  "homepage": "https://yagneswarpalnati.github.io/Ai_Tic_Tac_Toe",
+  "homepage": "https://yagneswarpalnati.github.io/Tic_Tac_Toe",
   "name": "myai_tic_tac_toe",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
+    "build": "vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
